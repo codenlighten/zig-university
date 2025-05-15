@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zig University - Learn the Zig Programming Language</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #f7a41d;
+        }
+        h2 {
+            color: #f74c1d;
+            margin-top: 30px;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #f7a41d;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .example-box {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .example-box h3 {
+            margin-top: 0;
+            color: #f74c1d;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zig University</h1>
+        <p>Learn the Zig programming language through practical examples</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Zig University</h2>
+            <p>Zig University is a comprehensive collection of examples and tutorials designed to help you learn the <a href="https://ziglang.org/" target="_blank">Zig programming language</a>. Our goal is to provide clear, practical examples that demonstrate Zig's powerful features and capabilities.</p>
+        </section>
+
+        <section>
+            <h2>Getting Started</h2>
+            <p>To get started with these examples, you'll need:</p>
+            <ul>
+                <li>Zig 0.11.0 or compatible version</li>
+                <li>Basic understanding of programming concepts</li>
+                <li>A text editor or IDE</li>
+            </ul>
+            <p>Clone this repository to run the examples locally:</p>
+            <pre><code>git clone https://github.com/codenlighten/zig-university.git
+cd zig-university</code></pre>
+        </section>
+
+        <section>
+            <h2>Featured Examples</h2>
+            
+            <div class="example-box">
+                <h3>Memory Allocators</h3>
+                <p>Explore Zig's various memory allocation strategies, including the General Purpose Allocator, Arena Allocator, and more.</p>
+                <code>zig run 01_memory_allocators.zig</code>
+            </div>
+            
+            <div class="example-box">
+                <h3>Compile-Time Features</h3>
+                <p>Discover Zig's powerful compile-time metaprogramming capabilities, including type reflection and compile-time function execution.</p>
+                <code>zig run 10_comptime_features.zig</code>
+            </div>
+            
+            <div class="example-box">
+                <h3>Foreign Function Interface (FFI)</h3>
+                <p>Learn how to seamlessly interface with C code from Zig, demonstrating Zig's excellent C ABI compatibility.</p>
+                <code>cd 13_ffi && zig build run</code>
+            </div>
+        </section>
+
+        <section>
+            <h2>Learning Path</h2>
+            <p>For those new to Zig, we recommend following this learning path:</p>
+            <ol>
+                <li>Start with the basic examples (Memory Allocators, Data Structures)</li>
+                <li>Move on to error handling and testing concepts</li>
+                <li>Explore file I/O and string manipulation</li>
+                <li>Dive into threading and concurrency</li>
+                <li>Study the more advanced topics like compile-time features and FFI</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://ziglang.org/documentation/master/" target="_blank">Official Zig Documentation</a></li>
+                <li><a href="https://ziglearn.org/" target="_blank">Zig Learn</a></li>
+                <li><a href="https://github.com/ziglang/zig" target="_blank">Zig on GitHub</a></li>
+                <li><a href="https://github.com/codenlighten/zig-university" target="_blank">Zig University Repository</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Zig University | <a href="https://github.com/codenlighten/zig-university/blob/main/LICENSE">MIT License</a></p>
+        <p>Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.</p>
+    </footer>
+</body>
+</html>
