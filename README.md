@@ -2,7 +2,7 @@
 
 ## Zig Programming Examples
 
-This repository contains a collection of examples demonstrating various features and capabilities of the Zig programming language (version 0.11.0).
+This repository contains a collection of examples demonstrating various features and capabilities of the Zig programming language (version 0.14.0).
 
 ## Overview
 
@@ -10,7 +10,7 @@ These examples showcase Zig's powerful features, from basic memory management to
 
 ## Prerequisites
 
-- Zig 0.11.0 or compatible version
+- Zig 0.14.0 or compatible version
 - Basic familiarity with programming concepts
 
 ## Examples
